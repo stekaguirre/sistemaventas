@@ -1,3 +1,7 @@
+<?php
+include ("../app/config.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +33,7 @@
     <br>
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <a href="../public/templeates/AdminLTE-3.2.0/index2.html" class="h1"><b>Sistema de </b>VENTAS</a>
+            <a href="#" class="h1"><b>Sistema de </b>VENTAS</a>
         </div>
         <div class="card-body">
             <p class="login-box-msg">Ingrese sus datos</p>
@@ -44,7 +48,7 @@
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" name="password_user" class="form-control" placeholder="Password">
+                    <input type="password" name="password_user" class="form-control" placeholder="Contraseña">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-lock"></span>
