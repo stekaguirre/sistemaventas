@@ -1,9 +1,16 @@
 <?php
 
+define ('APP_NAME','Sistema de ventas');
 define('SERVIDOR','localhost');
 define('USUARIO','root');
 define('PASSWORD','');
 define('BD','sistemaventas');
+
+$URL = "http://localhost/sistemaventas";
+
+date_default_timezone_set("America/Bogota");
+$fechaHora = date('Y-m-d H:i:s');
+
 
 $servidor = "mysql:dbname=".BD.";host=".SERVIDOR;
 
@@ -15,11 +22,5 @@ try{
     echo "Error al conectar a la base de datos";
 }
 
-$URL = "http://localhost/sistemaventas";
-
-define ('APP_NAME','Sistema de ventas');
-
-date_default_timezone_set("America/Bogota");
-$fechaHora = date('Y-m-d H:i:s');
 
 ?>
