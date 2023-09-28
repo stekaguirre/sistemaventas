@@ -3,6 +3,18 @@
 include ("app/config.php")
 ?>
 
+<?php
+session_start();
+if(isset($_SESSION['sesion_email'])){
+  echo "si existe la session de ".$_SESSION['sesion_email'];
+}else{
+  echo "no existe la session ....favor logearte";
+  header('Location: '.$URL.'/login');
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
