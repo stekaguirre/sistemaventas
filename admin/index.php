@@ -89,7 +89,7 @@
                     </div>
                   </div>
               <!--//// INFO Y FOTO DE PERFIL -->
-              
+
               <!-- MENU CON MIS PAGINAS -->
                   <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -134,7 +134,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link active" style="background-color:red">
+                        <a href="<?php echo $URL; ?>/app/controllers/login/cerrar_session.php" class="nav-link active" style="background-color:red">
                           <i class="nav-icon fas fa-door-open"></i>
                           <p>
                             Cerrar session

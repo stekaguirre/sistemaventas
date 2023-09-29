@@ -25,7 +25,7 @@ if( ($contador>0) && (password_verify($password_user, $hash)) ){
     header('Location: '.$URL.'/admin');
 }else{
     echo "error en los datos";
-    header('Location: '.$URL.'/index.html');
+    header('Location: '.$URL.'/login');
 }
 ?>
 
