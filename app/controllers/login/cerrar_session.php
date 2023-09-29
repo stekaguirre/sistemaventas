@@ -1,6 +1,6 @@
 <!-- INCLUDE -->
 <?php
-  include ("../app/config.php")
+  include ('../../config.php');
   ?>
 <!-- ///INCLUDE -->
 <!-- SESSION -->
