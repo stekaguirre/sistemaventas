@@ -14,6 +14,7 @@ $contador = 0;
 foreach ( $usuarios as $usuario){
  $contador = $contador + 1;
  $password_tabla = $usuario['password_user'];
+ $nombres = $usuario['nombres'];
 }
 
 $hash = $password_tabla;
