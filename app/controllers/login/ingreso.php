@@ -20,16 +20,14 @@ foreach ( $usuarios as $usuario){
 $hash = $password_tabla;
 
 if( ($contador>0) && (password_verify($password_user, $hash)) ){
-    echo "bienvenido al sistema";
     session_start();
-    $_SESSION['session_email'] = $email;
-    
+    $_SESSION['session_email'] = $email;  
+    $_SESSION['mensaje'] = "bienvenido al sistema";
     header('Location: '.$URL.'/admin');
 }else{
     session_start();
-    echo "error en los datos";
-    header('Location: '.$URL.'/login');
     $_SESSION['mensaje'] = 'datos incorrectos';
+    header('Location: '.$URL.'/login');
 }
 
 

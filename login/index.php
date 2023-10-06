@@ -7,7 +7,7 @@ include ("../app/config.php")
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login-Sistema de ventas</title>
+    <title>login - <?php echo APP_NAME; ?></title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -25,27 +25,7 @@ include ("../app/config.php")
 <div class="login-box">
     <!-- /.login-logo -->
 
-    <?php
-    session_start();
     
-    if(isset($_SESSION['mensaje'])){
-        $respuesta = $_SESSION['mensaje'];?>
-
-        <script>
-                Swal.fire({
-                position: 'top-end',
-                icon: 'error',
-                title: '<?php echo $respuesta ?>',
-                showConfirmButton: false,
-                timer: 1500
-                })
-        </script>
-
-        <?php
-            }
-
-            ?>
-
     <center>
         <img src="<?php echo $URL;?>/public/images/logotienda.png"
              alt="" width="200px">
