@@ -22,9 +22,9 @@
   <!-- ////HEAD -->
   <!-- BODY -->
     <body class="hold-transition sidebar-mini"> 
-<!-- wrapper --> 
+  <!-- wrapper --> 
     <div class="wrapper">
-    <!-- Navbar - MENU DE NAVEGACION PRINCIPAL -->
+<!-- Navbar - MENU DE NAVEGACION PRINCIPAL -->
                       
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
         <!-- Left navbar links - MENU DE NAVEGACION PRINCIPAL LADO IZQUIERDO LINKS -->
@@ -39,17 +39,17 @@
         <li class="nav-item d-sm-inline-block">
             <a href="http://localhost/sistemaventas/admin" class="nav-link">Admin</a>
         </li>
-        <li class="nav-item d-sm-inline-block">
+        <li class="nav-item d-none d-sm-inline-block">
             <a href="http://localhost/sistemaventas/usuarios" 
             class="nav-link">Usuarios</a>
         </li>
         </ul>
     <!-- Right navbar links - MENU DE NAVEGACION PRINCIPAL LADO DERECHO LINKS -->
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item d-none d-sm-inline-block">
+      <li class="nav-item d-sm-inline-block">
         <a href="http://localhost/sistemaventas/login/" class="nav-link">Ingresar</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item d-none">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
