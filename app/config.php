@@ -22,5 +22,25 @@ try{
     echo "Error al conectar a la base de datos";
 }
 
-
 ?>
+
+<!-- MENSAJE SWEETALERT -->
+<?php
+        if(isset($_SESSION['mensaje'])){
+            $respuesta = $_SESSION['mensaje'];?>
+
+            <script>
+                    Swal.fire({
+                    position: 'top-end',
+                    icon: 'error',
+                    title: '<?php echo $respuesta ?>',
+                    showConfirmButton: false,
+                    timer: 1500
+                    })
+            </script>
+          <?php
+              unset($_SESSION['mensaje']);
+              }
+
+              ?>
+<!--/// MENSAJE SWEETALERT -->
