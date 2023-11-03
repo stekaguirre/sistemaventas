@@ -7,6 +7,8 @@
   include ("../app/config.php");
   include ("../layout/session.php");
   include ("../layout/header.php");
+  include ("../layout/menu/usuarios/principal.php");
+  include ("../layout/menu/usuarios/lateral.php");
   ?>
 <!-- ///INCLUDE -->
 
@@ -42,18 +44,20 @@
                   </div>
                   </div>
                   <div class="card-body" style="display: block;">
-                    <form action="../app/controllers/usuarios/create.php" method="post">
+                    <form action="<?php echo $URL;?>/app/controllers/usuarios/create.php" method="post">
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Nombre y Apellido <b>*</b> </label>
-                            <input type="text" name="nombres" class="form-control" required >
+                            <input type="text" name="nombres" 
+                            class="form-control" required >
                           </div>
                         </div>
                         <div class="col-md-6">
                         <div class="form-group">
                             <label for="">Email</label>
-                            <input type="email" name="email" class="form-control">
+                            <input type="email" name="email" 
+                            class="form-control">
                           </div>
                         </div>
                       </div>
@@ -75,7 +79,7 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Mensaje</label>
-                            <textarea name="descripcion" id="descripcion" required
+                            <textarea name="descripcion" id="descripcion" 
                             cols="30" rows="5" class="form-control"></textarea>
                           </div>
                         </div>
@@ -96,11 +100,11 @@
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
 
-
+<!-- CONTENIDO FOOTER Y MENSAJES -->
   <?php include ("../layout/footer.php");
     include ("../layout/mensajes.php");
   ?>
-
+<!-- ///CONTENIDO FOOTER Y MENSAJES -->
   
 
 

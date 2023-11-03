@@ -23,22 +23,16 @@ include ("../app/config.php")
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-    <!-- /.login-logo -->
-
-    
-    <center>
-        <img src="<?php echo $URL;?>/public/images/logotienda.png"
-             alt="" width="200px">
-    </center>
-    
-    <br>
-    <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <a href="#" class="h1"><b>Sistema de </b>VENTAS</a>
+            <a href="index.html" class="h1"><b>Sistema de ventas</b></a>
         </div>
+        <div class="card card-outline card-primary">
+            <center>
+                <img src="<?php echo $URL;?>/public/images/logotienda.png"
+                alt="logotienda" width="100px">
+            </center>
         <div class="card-body">
-            <p class="login-box-msg">Ingrese sus datos</p>
-
+            <p class="login-box-msg"><b>Ingreso a el sistema</b></p>
             <form action="<?php echo $URL;?>/app/controllers/login/ingreso.php" method="post">
                 <div class="input-group mb-3">
                     <input type="email" name="email" class="form-control" placeholder="Email">
@@ -56,11 +50,19 @@ include ("../app/config.php")
                         </div>
                     </div>
                 </div>
-                <hr>
                 <div class="row">
                     <!-- /.col -->
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <hr>
+                <div class="row">
+                    <!-- /.col -->
+                    <div class="col-12">
+                        <p>Si aun no te has registrado ??</p>
+                        <a href="<?php echo $URL;?>/login/registro.php" class="btn btn-secondary btn-block">Registrarse</a>
                     </div>
                     <!-- /.col -->
                 </div>

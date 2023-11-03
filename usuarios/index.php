@@ -7,6 +7,8 @@
   include ("../app/config.php");
   include ("../layout/session.php");
   include ("../layout/header.php");
+  include ("../layout/menu/usuarios/principal.php");
+  include ("../layout/menu/usuarios/lateral.php");
   include('../app/controllers/usuarios/listado_usuarios.php');?>
 <!-- ///INCLUDE -->
 
@@ -92,10 +94,11 @@
       </div>
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
-
-<?php include ("../layout/footer.php");
-      include ("../layout/mensajes.php");
-?>
+<!-- CONTENIDO FOOTER Y MENSAJES -->
+  <?php include ("../layout/footer.php");
+        include ("../layout/mensajes.php");
+  ?>
+<!-- ///CONTENIDO FOOTER Y MENSAJES -->
 
 <!-- SCRIPT DE DATATABLE-->
   <script>

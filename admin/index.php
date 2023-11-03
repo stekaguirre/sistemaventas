@@ -8,8 +8,8 @@
   include ("../app/config.php");
   include ("../layout/session.php");
   include ("../layout/header.php");
-  include ("../layout/menu_principal_admin.php");
-  include ("../layout/menu_lateral_admin.php");?>
+  include ("../layout/menu/admin/principal.php");
+  include ("../layout/menu/admin/lateral.php");?>
 <!-- ///INCLUDE -->
  
        
@@ -36,12 +36,12 @@
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
 
-
+<!-- CONTENIDO FOOTER Y MENSAJES -->
   <?php 
     include ("../layout/footer.php");
     include ("../layout/mensajes.php");
   ?>
-
+<!-- ///CONTENIDO FOOTER Y MENSAJES -->
   
 
 

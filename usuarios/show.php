@@ -7,6 +7,8 @@
   include ("../app/config.php");
   include ("../layout/session.php");
   include ("../layout/header.php");
+  include ("../layout/menu/usuarios/principal.php");
+  include ("../layout/menu/usuarios/lateral.php");
   include ("../app/controllers/usuarios/show_usuarios.php");
   ?>
 <!-- ///INCLUDE -->
@@ -90,11 +92,11 @@
       </div>
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
-
+<!-- CONTENIDO FOOTER Y MENSAJES -->
   <?php include ("../layout/footer.php");
     include ("../layout/mensajes.php");
   ?>
-
+<!-- ///CONTENIDO FOOTER Y MENSAJES -->
   
 
 
