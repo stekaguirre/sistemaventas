@@ -34,7 +34,7 @@
               <!--       TARGETA 1 - KERATINA                                         -->
                <center>
                 <li class="one_quarter first">
-                    <div class="card" style="width: 16rem;">
+                    <div class="card" style="width: 15rem;">
                       <center>
                         <h5 class="card-title">Keratina</h5>
                       </center>
@@ -50,14 +50,13 @@
                       </div>
                     </div>
                     <br>
-                    <br>
                   </li>
                </center>
               <!--       ////// TARGETA 1 - KERATINA                                   -->
               <!--         TARGETA 2 - REGENERADOR                   -->
                 <center>
                   <li class="one_quarter">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 16rem;">
                       <center>
                         <h5 class="card-title">Regenerador</h5>
                       </center>
@@ -72,15 +71,13 @@
                         </center>
                       </div>
                     </div>
-                    <br>
-                    <br>
                   </li>
                 </center>
               <!--         ////// TERGETA 2 - REGENERADOR              -->
               <!--       TARGETA 3 REPOLARIZADOR                  -->
                 <center>
                   <li class="one_quarter">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 16rem;">
                       <center>
                         <h5 class="card-title">Repolarizador</h5>
                       </center>
@@ -95,15 +92,14 @@
                         </center>
                       </div>
                     </div>
-                    <br>
-                    <br>
+                    
                   </li>
                 </center>
               <!--       ////// TARGETA 3 REPOLARIZADOR            -->
               <!--         TARGETA 4 ANTIHONGOS                    -->
                  <center>
                   <li class="one_quarter">
-                    <div class="card" style="width: 17rem;">
+                    <div class="card" style="width: 20rem;">
                       <center>
                         <h5 class="card-title">Antihongos</h5>
                       </center>
@@ -114,7 +110,7 @@
                       </center>
                       
                       <div class="card-body">
-                        <br>
+                        
                         <center>
                           <p class="card-text">antihongos.</p>
                           <p class="card-text">50.000</p>
@@ -122,8 +118,7 @@
                         </center>
                       </div>
                     </div>
-                    <br>
-                    <br>
+                   
                   </li>
                  </center>
               <!--          ////// TARGETA 4 ANTIHONGOS             -->
@@ -133,7 +128,7 @@
                 <!--       TARGETA 5 - SHAMPOO Y ACON DE CEBOLLA                  -->
                  <center>
                   <li class="one_quarter first">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 19rem;">
                       <center>
                         <h5 class="card-title">Shampoo y Acondicionador</h5>
                       </center>
@@ -156,7 +151,7 @@
                 <!--         TARGETA 6 - TRATAMIENTO CAPILAR                    -->
                   <center>
                   <li class="one_quarter">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 19rem;">
                       <center>
                         <h5 class="card-title">Tratamiento Capilar</h5>
                       </center>
@@ -171,15 +166,13 @@
                           </center>
                       </div>
                     </div>
-                    <br>
-                    <br>
                   </li>
                   </center>
                 <!--         ////// TARGETA 6 - TRATAMIENTO CAPILAR              -->
                 <!--       TARGETA 7 - SHAMPOO DE CHOCOLATE                  -->
                   <center>
                     <li class="one_quarter">
-                      <div class="card" style="width: 17rem;">
+                      <div class="card" style="width: 17.5rem;">
                         <center>
                           <h5 class="card-title">Shampoo de chocolate</h5>
                         </center>
@@ -195,14 +188,14 @@
                         </div>
                       </div>
                       <br>
-                      <br>
+                     
                     </li>
                     </center>
                 <!--       ////// TARGETA 7 - SHAMPOO DE CHOCOLATE          -->
                 <!--        TARGETA 8 - REPUESTO CHOCOLATE                    -->
                  <center>
                   <li class="one_quarter">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                       <center>
                         <h5 class="card-title">Repuesto chocolate</h5>
                       </center>
@@ -220,8 +213,8 @@
                         </center>
                       </div>
                     </div>
-                    <br>
-                    <br>
+          
+                    
                   </li>
                  </center>
                 <!--       ////// TARGETA 8 - REPUESTO CHOCOLATE             -->

@@ -26,17 +26,6 @@
                             </a>
                         </li>
                     <!--///BOTON HOME-->
-                    <!--BOTON ADMIN-->        
-                        <li class="nav-item">
-                            <a href="<?php echo $URL; ?>/paginas/streaming" 
-                            class="nav-link active" >
-                            <i class="nav-icon fas fa-user-tie"></i>
-                            <p>
-                                Streaming
-                            </p>
-                            </a>
-                        </li>
-                    <!--///BOTON ADMIN-->
                     <!--BOTON RESTAURANTES-->
                         <li class="nav-item">
                             <a href="#" class="nav-link active">
@@ -46,22 +35,138 @@
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/cafe" 
-                                        class="nav-link active"><p>Cafe</p>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/chino" 
-                                        class="nav-link active"><p>food hut </p>
-                                    </a>
-                                </li>
-                            </ul>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/koppee" 
+                                                class="nav-link active"><p>Koppee</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/foodhut" 
+                                                class="nav-link active"><p>Food Hut </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/ice-cream" 
+                                                class="nav-link active"><p>Ice Cream</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/klassy" 
+                                                class="nav-link active"><p>Klassy</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
                         </li>
                     <!--///BOTON RESTAURANTES-->
+                    <!--BOTON TIENDAS-->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-truck"></i>
+                            <p>
+                                Tiendas
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                            </a>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/sungla" 
+                                                class="nav-link active"><p>Sungla</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/zay" 
+                                                class="nav-link active"><p>Zay </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/pullo" 
+                                                class="nav-link active"><p>Pullo</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/catalog" 
+                                                class="nav-link active"><p>Catalogo</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
+                        </li>
+                    <!--///BOTON TIENDAS-->
+                    <!--BOTON TIENDAS-->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-tv"></i>
+                            <p>
+                                Otros
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                            </a>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/petology" 
+                                                class="nav-link active"><p>Petology</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/uliya" 
+                                                class="nav-link active"><p>Uliya</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/heron" 
+                                                class="nav-link active"><p>Heron</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/evolve" 
+                                                class="nav-link active"><p>Evolve</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
+                        </li>
+                    <!--///BOTON TIENDAS-->
                            
                           
                 </ul>

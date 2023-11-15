@@ -134,6 +134,7 @@
                         class="card-img-top" alt="tienda/azucar/azucar500">
                         <div class="card-body">
                           <br>
+                          <br>
                           <center>
                             <p class="card-text">Precio por Paca.</p>
                             <p class="card-text">48.000</p>
@@ -142,7 +143,7 @@
                         </div>
                       </div>
                       <br>
-                    <br>
+                    
                     </li>
                   </center>
                 <!--       ////// TARGETA 5 -  AZUCAR - 500GMS           -->
@@ -157,7 +158,6 @@
                         width="100%" height="100%" 
                         class="card-img-top" alt="tienda/azucar/azucar1000">
                         <div class="card-body">
-                          <br>
                           <br>
                           <br>
                           <center>
@@ -183,6 +183,7 @@
                         class="card-img-top" alt="tienda/azucar/azucar1000morena">
                         <div class="card-body">
                           <br>
+                          <br>
                           <center>
                             <p class="card-text">Precio por Paca..</p>
                             <p class="card-text">48.000</p>
@@ -190,6 +191,7 @@
                           </center>
                         </div>
                       </div>
+                      <br>
                       <br>
                     </li>
                   </center>
@@ -206,7 +208,6 @@
                         width="100%" height="100%"
                         class="card-img-top" alt="tienda/azucar/azucar500morena">
                         </center>
-                        <br>
                         <br>
                         <br>
                         <div class="card-body">

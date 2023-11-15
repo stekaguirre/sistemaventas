@@ -68,7 +68,7 @@
           <article><i class="btmspace-30 fa-6x fas fa-home"></i>
             <h6 class="heading">Servicio Hogar</h6>
             <p class="btmspace-30">Mas de 4 años ofreciendo los mejores serfrutar donde quieras.</p>
-            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/hogar">Ver Avances</a></footer>
+            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/hogar">Ver Avance</a></footer>
           </article>
         </li>
         <li class="one_third">
@@ -76,14 +76,14 @@
             <h6 class="heading">Servicio Tienda</h6>
             <p class="btmspace-30">Compra por mayor y a detal. <br>
             con los mejores precios</p>
-            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/tienda">Ver Avances</a></footer>
+            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/tienda">Ver Avance</a></footer>
           </article>
         </li>
         <li class="one_third ">
           <article><i class="btmspace-30 fa-6x fas fa-user"></i>
             <h6 class="heading">Sercicio Personal</h6>
             <p class="btmspace-30">servicios de cuidado personal</p>
-            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/personal">Ver Avances</a></footer>
+            <footer><a class="btn inverse" href="<?php echo $URL;?>/paginas/personal">Ver Avance</a></footer>
           </article>
         </li>
         
