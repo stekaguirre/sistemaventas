@@ -15,13 +15,13 @@
             <nav class="mt-4">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" 
                 role="menu" data-accordion="false">
-                    <!--BOTON HOME-->
+                    <!--BOTON INICIO-->
                         <li class="nav-item">
                             <a href="<?php echo $URL;?>/" 
                             class="nav-link active" >
                             <i class="nav-icon fas fa-home"></i>
                             <p>
-                                Home
+                                Inicio
                             </p>
                             </a>
                         </li>

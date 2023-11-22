@@ -3,7 +3,7 @@
 <!-- INCLUDE -->
 <?php
   include ("app/config.php");
-  include ("layout/home/header.php");?>
+  include ("layout/inicio/header.php");?>
 <!-- ///INCLUDE -->
 
 
@@ -22,7 +22,8 @@
             <div class="posts">
             <!-- SERVICIO DE STREAMING -->
                 <figure class="group">
-                  <div><a class="imgover" href="<?php echo $URL;?>/paginas/streaming/index.php"><img src="public/images/streaming.jpg" alt="fotodestreamein"
+                  <div><a class="imgover" href="<?php echo $URL;?>/paginas/streaming/index.php">
+                  <img src="public/images/cuentas.jpg" alt="fotodestreamein"
                     width="100%" height="100%" ></a></div>
                   <figcaption>
                   <center>
@@ -132,5 +133,5 @@
 
 <!-- INCLUDE -->
 <?php
-  include ("layout/home/footer.php");?>
+  include ("layout/inicio/footer.php");?>
 <!-- ///INCLUDE -->
