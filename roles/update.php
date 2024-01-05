@@ -3,12 +3,13 @@
 <!--                                  USUARIOS CREATE                                            -->
 
 <!-- INCLUDE -->
- <?php
+<?php
   include ("../app/config.php");
   include ("../layout/admin/session.php");
   include ("../layout/admin/header.php");
   include ("../layout/admin/menu/principal.php");
   include ("../layout/admin/menu/lateral.php");
+  include('../app/controllers/roles/update_roles.php');
   ?>
 <!-- ///INCLUDE -->
 
@@ -34,9 +35,9 @@
         <div class="content-fluid">
           <div class="row">
             <div class="col-md-10">
-              <div class="card card-outline card-primary">
+              <div class="card card-outline card-success">
                 <div class="card-header">
-                  <h1 class="card-title">Crear nuevo rol en <?php echo APP_NAME; ?></h1>
+                  <h1 class="card-title">editar rol en <?php echo APP_NAME; ?></h1>
                   <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i 
                   class="fas fa-minus"></i>
@@ -44,20 +45,21 @@
                   </div>
                   </div>
                   <div class="card-body" style="display: block;">
-                    <form action="../app/controllers/roles/create.php" method="post">  
+                    <form action="../app/controllers/roles/update.php" method="post">  
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
+                            <input type="text" name="id_rol" value="<?php echo $id_rol_get ?>"hidden>
                             <label for="">Nuevo rol<b>*</b> </label>
                             <input type="text" name="nombre" class="form-control"
-                            placeholder="escriba su nuevo rol" required >
+                            placeholder="escriba su nuevo rol" value="<?php echo $nombre ?>" required >
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
                           <a href="<?php echo $URL; ?>/usuarios" class="btn btn-secondary">Atras</a>
-                          <input type="submit" class="btn btn-primary">
+                          <button type="submit" class="btn btn-success">actualizar</button>
                         </div>
                       </div>
                     </form>                  

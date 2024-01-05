@@ -6,11 +6,12 @@
 <!-- INCLUDE -->
   <?php
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/usuarios/principal.php");
-  include ("../layout/menu/usuarios/lateral.php");
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");
   include ("../app/controllers/usuarios/update_usuarios.php");
+  include('../app/controllers/roles/listado_roles.php');
   ?>
 <!-- ///INCLUDE -->
 
@@ -65,21 +66,54 @@
                           </div>
                         </div>
                       </div>
+
+
+
                       <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="">Rol de usuario</label>
+                            <select name="nombre" id="" class="form-control">
+                            <?php
+                            foreach ($roles_datos as $roles_dato){
+
+                              $rol_tabla = $roles_dato["nombre"];
+                              $id_rol = $roles_dato["id_rol"];?>
+
+                              <option value="<?php echo $id_rol; ?>"
+
+                              <?php if($rol_tabla == $nombre){ ?>
+
+                                selected="selected"
+
+                             <?php } ?> ><?php echo $rol_tabla; ?> </option>
+
+                            <?php
+                            }
+                            ?>
+                            
+                            </select>
+                          </div>
+                        </div>
+
+
+
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Contraseña</label>
                             <input type="text" name="password_user" class="form-control" >
                           </div>
                         </div>
+                        
+                      </div>
+                      <div class="row">
                         <div class="col-md-6">
                         <div class="form-group">
                             <label for="">Verifica la Contraseña</label>
                             <input type="text" name="password_repeat" class="form-control">
                           </div>
                         </div>
-                      </div>
-                      <div class="row">
+                      
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Mensaje</label>
@@ -105,9 +139,9 @@
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
 <!-- CONTENIDO FOOTER Y MENSAJES -->
-  <?php include ("../layout/footer.php");
-        include ("../layout/mensajes.php");
-  ?>
+<?php include ("../layout/admin/footer.php");
+      include ("../layout/admin/mensajes.php");
+?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
   
 

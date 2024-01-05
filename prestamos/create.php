@@ -6,10 +6,10 @@
  <?php
 
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/usuarios/principal.php");
-  include ("../layout/menu/usuarios/lateral.php");
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");
   
 
   
@@ -126,8 +126,8 @@
             
 
 <!-- CONTENIDO FOOTER Y MENSAJES -->
-  <?php include ("../layout/footer.php");
-    include ("../layout/mensajes.php");
+  <?php include ("../layout/admin/footer.php");
+    include ("../layout/admin/mensajes.php");
   ?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
   

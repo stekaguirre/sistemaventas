@@ -5,14 +5,15 @@
 <!-- INCLUDE -->
  <?php
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/usuarios/principal.php");
-  include ("../layout/menu/usuarios/lateral.php");
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");
+  include('../app/controllers/roles/listado_roles.php');
   ?>
 <!-- ///INCLUDE -->
 
-<!-- ///CONTENIDO DERECHO HEADER -->
+<!-- ///CONTENIDO DERECHO HEADER -->   
  <div class="content-wrapper">
   <br>
           <!--      
@@ -45,6 +46,7 @@
                   </div>
                   <div class="card-body" style="display: block;">
                     <form action="<?php echo $URL;?>/app/controllers/usuarios/create.php" method="post">
+
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
@@ -61,21 +63,38 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="row">
+                          <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="">Rol de usuario</label>
+                            <select name="nombre" id="" class="form-control">
+                              <?php
+                              foreach ($roles_datos as $roles_dato){ ?>
+                              <option value="<?php echo $roles_dato ['id_rol'] ?>"><?php echo $roles_dato ['nombre'] ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                          </div>
+                        </div>
+
+
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Contraseña</label>
                             <input type="text" name="password_user" class="form-control">
                           </div>
                         </div>
+                      
+                      </div>
+                      <div class="row">
                         <div class="col-md-6">
                         <div class="form-group">
                             <label for="">Verifica la Contraseña</label>
                             <input type="text" name="password_repeat" class="form-control">
                           </div>
                         </div>
-                      </div>
-                      <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Mensaje</label>
@@ -84,6 +103,7 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="row">
                         <div class="col-md-12">
                           <a href="<?php echo $URL; ?>/usuarios" class="btn btn-secondary">Atras</a>
@@ -101,9 +121,9 @@
             
 
 <!-- CONTENIDO FOOTER Y MENSAJES -->
-  <?php include ("../layout/footer.php");
-    include ("../layout/mensajes.php");
-  ?>
+<?php include ("../layout/admin/footer.php");
+      include ("../layout/admin/mensajes.php");
+?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
   
 

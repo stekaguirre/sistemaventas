@@ -6,10 +6,10 @@
 <!-- INCLUDE -->
   <?php
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/admin/principal.php");
-  include ("../layout/menu/admin/lateral.php");?>
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");?>
 <!-- ///INCLUDE -->
  
        
@@ -38,8 +38,8 @@
 
 <!-- CONTENIDO FOOTER Y MENSAJES -->
   <?php 
-    include ("../layout/footer.php");
-    include ("../layout/mensajes.php");
+    include ("../layout/admin/footer.php");
+    include ("../layout/admin/mensajes.php");
   ?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
   

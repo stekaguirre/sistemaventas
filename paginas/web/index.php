@@ -6,11 +6,260 @@
 <!-- INCLUDE -->
   <?php
     include ("../../app/config.php");
-    include ("../../layout/web/header.php");
-    include ("../../layout/web/menus/principal.php");
-    include ("../../layout/web/menus/lateral.php");
   ?>
 <!-- ///INCLUDE -->
+
+<!DOCTYPE html>
+<!-- HTML -->
+  <html lang="es">
+  <!-- HEAD -->
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Web | Paginas | Servicios disponibles</title>
+
+      <!-- Google Font: Source Sans Pro -->
+      <link rel="stylesheet" 
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+      <!-- Font Awesome Icons -->
+      <link rel="stylesheet" 
+      href="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" 
+      href="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/dist/css/adminlte.min.css">
+      <!-- ICONOS DE BOOTSTRAP -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+      <!-- LIBRERIA DE SWEETALERT -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <!-- DataTables -->
+      <link rel="stylesheet" href="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+      <link rel="stylesheet" href="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+      <link rel="stylesheet" href="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    </head>
+  <!-- ////HEAD -->
+  <!-- BODY -->
+    <body class="hold-transition sidebar-mini"> 
+  <!-- wrapper --> 
+    <div class="wrapper">
+
+    
+<!-- MENU DE NAVEGACION PRINCIPAL ADMIN -->                    
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!--MENU DE NAVEGACION PRINCIPAL LADO IZQUIERDO LINKS -->  
+      <ul class="navbar-nav">
+        <!-- BOTON PUSH-MENU  -->  
+          <li class="nav-item">
+              <a class="nav-link" data-widget="pushmenu" 
+              href="#" role="button"><i class="fas fa-bars"></i></a>
+          </li>
+        <!-- ///BOTON PUSH-MENU  -->
+        <!-- BOTON HOME  -->
+          <li class="nav-item d-sm-inline-block">
+              <a href="<?php echo $URL;?>/index.php" 
+              class="nav-link"><b>Home</b></a>   
+          </li>
+        <!-- ///BOTON HOME -->
+        <!-- BOTON STREAMING -->
+          <li class="nav-item d-sm-inline-block">
+              <a href="<?php echo $URL;?>/paginas/streaming" 
+              class="nav-link"><b>Servicios de Streaming</b></a>
+          </li>
+        <!-- ///BOTON STREAMING -->
+        
+        
+        <!-- BOTON USUARIOS -->
+          <li class="nav-item d-sm-inline-block">
+              <a href="<?php echo $URL;?>/paginas/web" 
+              class="nav-link"><b>Servicios Web</b></a>
+          </li>
+        <!-- ///BOTON USUARIOS -->
+        
+      </ul>
+    <!--MENU DE NAVEGACION PRINCIPAL LADO IZQUIERDO LINKS -->  
+  </nav>
+<!-- MENU DE NAVEGACION PRINCIPAL ADMIN-->
+
+
+<!-- MENU DE LATERAL USUARIOS -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+
+    <!-- LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DE LOS USUARIOS --> 
+        <a href="<?php echo $URL;?>/paginas/web" class="brand-link">
+            <img src="<?php echo $URL;?>/public/images/logotienda.png" alt="logo tienda" 
+            class="brand-image img-circle elevation-0" style="opacity: .8">
+            <span class="brand-text font-weight-light">Servicios <b>Web</b></span>
+        </a>             
+    <!-- /////LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DE LOS USUARIOS --> 
+    <!-- MENU  -->
+        <div class="sidebar"> 
+            <nav class="mt-4">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" 
+                role="menu" data-accordion="false">
+                    <!--BOTON INICIO-->
+                        <li class="nav-item">
+                            <a href="<?php echo $URL;?>/" 
+                            class="nav-link active" >
+                            <i class="nav-icon fas fa-home"></i>
+                            <p>
+                                Inicio
+                            </p>
+                            </a>
+                        </li>
+                    <!--///BOTON INICIO-->
+                    <!--BOTON RESTAURANTES-->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-coffee"></i>
+                            <p>
+                                Restaurantes
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                            </a>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/koppee" 
+                                                class="nav-link active"><p>Koppee</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/foodhut" 
+                                                class="nav-link active"><p>Food Hut </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/ice-cream" 
+                                                class="nav-link active"><p>Ice Cream</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/restaurantes/klassy" 
+                                                class="nav-link active"><p>Klassy</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
+                        </li>
+                    <!--///BOTON RESTAURANTES-->
+                    <!--BOTON TIENDAS-->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-truck"></i>
+                            <p>
+                                Tiendas
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                            </a>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/sungla" 
+                                                class="nav-link active"><p>Sungla</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/zay" 
+                                                class="nav-link active"><p>Zay </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/pullo" 
+                                                class="nav-link active"><p>Pullo</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/tiendas/catalog" 
+                                                class="nav-link active"><p>Catalogo</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
+                        </li>
+                    <!--///BOTON TIENDAS-->
+                    <!--BOTON TIENDAS-->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-tv"></i>
+                            <p>
+                                Otros
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                            </a>
+                            <!--RESTAURANTE KOPPEE-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/petology" 
+                                                class="nav-link active"><p>Petology</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KOPPEE-->
+                            <!--RESTAURANTE FOODHUT-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/uliya" 
+                                                class="nav-link active"><p>Uliya</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE FOODHUT-->
+                            <!--RESTAURANTE ICE-CREAM-->
+                                <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/heron" 
+                                                class="nav-link active"><p>Heron</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE ICE-CREAM--->
+                            <!--RESTAURANTE KLASSY-->
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?php echo $URL;?>/paginas/web/proyectos/otros/evolve" 
+                                                class="nav-link active"><p>Evolve</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            <!--/////RESTAURANTE KLASSY-->
+                        </li>
+                    <!--///BOTON TIENDAS-->
+                           
+                          
+                </ul>
+            </nav>
+        </div>
+    <!-- ///MENU  -->
+
+  </aside>
+<!-- ///MENU DE LATERAL USUARIOS -->
+
+<!--//// wrapper -->
+           
 
      
 <!-- ///CONTENIDO DERECHO HEADER -->
@@ -49,29 +298,29 @@
         CSS
         ============================================= -->
         <!-- Fontawesome -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/font-awesome.min.css">
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/bootstrap.min.css">
         <!-- Fancybox -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/jquery.fancybox.css">
         <!-- owl carousel -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/owl.carousel.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/owl.carousel.css">
         <!-- Animate -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/animate.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/animate.css">
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/main.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/main.css">
         <!-- Main Responsive -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/css/responsive.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/css/responsive.css">
         
         <!-- font icons -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/assets/vendors/themify-icons/css/themify-icons.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/assets/vendors/themify-icons/css/themify-icons.css">
 
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/assets/vendors/animate/animate.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/assets/vendors/animate/animate.css">
 
         <!-- Bootstrap + FoodHut main styles -->
-        <link rel="stylesheet" href="<?php echo $URL;?>/paginas/web/assets/css/foodhut.css">
+        <link rel="stylesheet" href="<?php echo $URL;?>/layout/web/assets/css/foodhut.css">
         <!-- Modernizer Script for old Browsers -->
-            <script src="<?php echo $URL;?>/paginas/web/js/vendor/modernizr-2.6.2.min.js"></script>
+            <script src="<?php echo $URL;?>/layout/web/js/vendor/modernizr-2.6.2.min.js"></script>
         
         <style type="text/css">.fancybox-margin{margin-right:17px;}</style>
     </head>
@@ -537,13 +786,46 @@ JavaScripts
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
           
 
-<!-- CONTENIDO FOOTER Y MENSAJES -->
-<?php 
-  include ("../../layout/web/footer.php");
-?>
-<!-- ///CONTENIDO FOOTER Y MENSAJES -->
 
 
+
+    <!-- FOOTER -->
+      </div>
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+            Gracias por tu visita
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2023 <a href="">Servicios Disponibles</a>.</strong> Todos los derechos reservados.
+        </footer>
+      </div>
+    <!-- FOOTER -->
+      <!-- ./wrapper -->
+        <!-- REQUIRED SCRIPTS -->
+        <!-- jQuery -->
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script>
+        <!-- Bootstrap 4 -->
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/dist/js/adminlte.min.js"></script>
+        <!-- DataTables  & Plugins -->
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/jszip/jszip.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/pdfmake/pdfmake.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/pdfmake/vfs_fonts.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+        <script src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+        </body>
+  <!-- ////BODY -->
+  </html>
+<!-- ////HTML -->
 
 
         

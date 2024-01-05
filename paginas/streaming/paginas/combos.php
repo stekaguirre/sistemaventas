@@ -1,8 +1,8 @@
 
 
 <!-- INCLUDE -->
-  <?php
-    include ("../../app/config.php");
+<?php
+    include ("../../../app/config.php");
   ?>
 <!-- ///INCLUDE -->
 
@@ -10,7 +10,7 @@
   <!DOCTYPE html>
   <html lang="es">
   <head>
-  <title>Streaming |  Servicios disponibles</title>
+  <title>Combos | Streaming |  Servicios disponibles</title>
   <meta charset="utf-8">
   <meta name="viewport" 
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,28 +20,8 @@
         rel="stylesheet" type="text/css" media="all">
   <link href="<?php echo $URL;?>/layout/streaming/styles/styles.css" 
         rel="stylesheet" type="text/css" media="all">
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" 
-  href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" 
-  href="<?php echo $URL;?>/layout/inicio/styles/fontawesome-free/css/all.min.css">
- 
-       
   </head>
 <!--       //// HEAD             -->
-
-<!-- Google tag (gtag.js) -->
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z319NRQMT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-7Z319NRQMT');
-  </script>
-<!-- Google tag (gtag.js) -->
 
 <!--        HEADER              -->
   <!--       HEADER ARRIBA IZQUIERDO  DERECHO // ABAJO IZQUIERDO  DERECHO HEADER // TITULO DE PAGINA Y LOGO             -->
@@ -97,7 +77,7 @@
         <div class="row">
           <div style="background-color: white;">
             <center>
-              <h3 style="color: red;">Streaming - Netflix</h3>
+              <h3 style="color: red;">Streaming - Combos</h3>
               <img src="<?php echo $URL;?>/public/images/logotienda.png" alt="">
             </center>
           </div>
@@ -108,17 +88,7 @@
 <!--       /// HEADER              -->
 
 <!--        BODY              -->
-  <!--        FOTO DE PRODUCTO PRINCIPAL             -->
-    <section>
-      <div class="row" >
-        <div style="background-color: black;">
-          <center>
-            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" alt="">
-          </center>
-        </div>
-      </div>
-    </section>
-  <!--        ////FOTO DE PRODUCTO PRINCIPAL             -->
+ 
   <!--        LADO IZQUIERDO Y DERECHO -->
     <div class="wrapper row3">
       <main class="hoc container clear">
@@ -135,6 +105,12 @@
                   <li><a href="#netflix+star">Netflix + Star</a></li>
                   <li><a href="#netflix+paramount">Netflix + Paramount</a></li>
                   <li><a href="#netflix+youtube">Netflix + Youtube</a></li>
+                  <li><a href="#netflix+disney+amazon">Netflix+Disney+Amazon</a></li>
+                  <li><a href="#netflix+disney+hbo">Netflix+Disney+Hbo</a></li>
+                  <li><a href="#netflix+disney+star">Netflix+Disney+Star</a></li>
+                  <li><a href="#netflix+disney+paramount">Netflix+Disney+Paramount</a></li>
+                  <li><a href="#netflix+disney+youtube">Netflix+Disney+Youtube</a></li>
+      
                 </ul>
               </nav>
             <!--//// PLANES  -->
@@ -143,11 +119,11 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title" style="color: red;">Producto mas vendido</h4>
-                    <p class="card-subtitle "><h2>Netflix * 3 meses</h2></p>
+                    <p class="card-subtitle ">Netflix * 3 meses</p>
                     <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" class="card-img-top" alt="...">
-                    <p class="card-text"><h4>Precio:36000</h4></p>
-                    <p class="card-text"><h3>Ahorra:9000</h3></p>
-                    <a href="#" class="btn" style="background-color: red;border-style: solid ; border-color:black ; border-radius: 10px ;" >Pide la tuya</a>
+                    <p class="card-text">Precio : 39.000</p>
+                    <p class="card-text"><h4>Ahorra : 6.000</h4></p>
+                    <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
                   </div>
                 </div>
               </div>
@@ -170,46 +146,6 @@
         <!-- ////LADO IZQUIERDO -->
         <!-- LADO DERECHO -->
           <div class="content three_quarter"> 
-            <!-- ACERCA DE -->
-              <div class="card">
-                <div class="card-header">
-                  <h2 style="color: red;">Acerca de Netflix</h2>
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-
-                    <p>Netflix es un servicio de streaming de entretenimiento en línea que ofrece una amplia 
-                      variedad de programas de televisión, películas, documentales y contenido original..
-                    </p>
-
-                    <p><span style="color: red;">Lanzamiento:</span> Netflix fue fundado en 1997 por 
-                        Reed Hastings y Marc Randolph como un servicio de alquiler de DVD por correo. 
-                        La plataforma de transmisión en línea se lanzó en 2007.
-                    </p>
-
-                    <p><span style="color: red;">Modelo de Negocio:</span>Netflix opera en un modelo de
-                      suscripción mensual. Los suscriptores pagan una tarifa mensual para acceder a una 
-                      biblioteca completa de contenido en streaming sin anuncios. 
-                      El servicio está disponible en más de 190 países.
-                    </p>
-
-                    <p><span style="color: red;">Contenido:</span> Programas de Televisión: Series originales 
-                      de Netflix, así como programas de televisión de otras cadenas y productoras. <br>
-                      <b>Películas:</b> Una extensa biblioteca de películas de varios géneros, que incluye 
-                      tanto títulos clásicos como estrenos recientes.<br>
-                      <b>Documentales:</b>Ofrece una variedad de documentales que abarcan temas desde 
-                      ciencia y tecnología hasta crímenes reales y acontecimientos históricos.<br>
-                      <b>Contenido Original:</b>Netflix ha invertido significativamente en la producción de 
-                      contenido original, incluyendo películas, series y programas de televisión exclusivos.
-                    </p>
-
-                    <footer class="blockquote-footer">Elige tu plan</footer>
-                  </blockquote>
-                </div>
-              </div>
-            <!-- ////ACERCA DE -->
-            <br>
-            <br>
             
           <!-- PLANES -->
             <!-- PLANES NETFLIX*1-->  
@@ -691,7 +627,266 @@
                 </div>
               <!-- PLANES NETFLIX+YOUTUBE-->
               <br>
-            <!-- /////PLANES NETFLIX*1-->  
+            <!-- /////PLANES NETFLIX*1--> 
+            <!-- PLANES NETFLIX*2-->  
+              <!-- PLANES NETFLIX+DISNEY+AMAZON-->
+                <div id="netflix+disney+amazon">
+                  <figure>
+                    <header class="heading center">Netflix + Disney + Amazon</header>
+                      <ul class="nospace clear" style="color: white;">
+                        <li class="one_quarter first" style="background-color: darkgrey;">
+                          <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 1 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 21.000</p>
+                            <p class="card-text"><h4>Ahorra : 2.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 2 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 40.000</p>
+                            <p class="card-text"><h4>Ahorra : 6.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 3 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 57.000</p>
+                            <p class="card-text"><h4>Ahorra:12.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                      </li>
+                    </ul>
+                  </figure>
+                </div>
+              <!-- PLANES NETFLIX+DISNEY+AMAZON-->
+              <br>
+              <br>
+              <hr>
+              <br>
+              <!-- PLANES NETFLIX+DISNEY+HBO-->
+                <div id="netflix+disney+hbo">
+                  <figure>
+                    <header class="heading center">Netflix + Disney + Hbo</header>
+                      <ul class="nospace clear" style="color: white;">
+                        <li class="one_quarter first" style="background-color: darkgrey;">
+                          <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 1 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 21.000</p>
+                            <p class="card-text"><h4>Ahorra : 2.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 2 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 40.000</p>
+                            <p class="card-text"><h4>Ahorra : 6.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 3 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 57.000</p>
+                            <p class="card-text"><h4>Ahorra:12.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                      </li>
+                    </ul>
+                  </figure>
+                </div>
+              <!-- PLANES NETFLIX+DISNEY+HBO-->
+              <br>
+              <br>
+              <hr>
+              <br>
+              <!-- PLANES NETFLIX+DISNEY+AMAZON-->
+                <div id="netflix+disney+amazon">
+                  <figure>
+                    <header class="heading center">Netflix + Disney + Amazon</header>
+                      <ul class="nospace clear" style="color: white;">
+                        <li class="one_quarter first" style="background-color: darkgrey;">
+                          <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 1 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 21.000</p>
+                            <p class="card-text"><h4>Ahorra : 2.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 2 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 40.000</p>
+                            <p class="card-text"><h4>Ahorra : 6.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 3 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotoamazon.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 57.000</p>
+                            <p class="card-text"><h4>Ahorra:12.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                      </li>
+                    </ul>
+                  </figure>
+                </div>
+              <!-- PLANES NETFLIX+DISNEY+AMAZON-->
+              <br>
+              <br>
+              <hr>
+              <br>
+              <!-- PLANES NETFLIX+DISNEY+HBO-->
+                <div id="netflix+disney+hbo">
+                  <figure>
+                    <header class="heading center">Netflix + Disney + Hbo</header>
+                      <ul class="nospace clear" style="color: white;">
+                        <li class="one_quarter first" style="background-color: darkgrey;">
+                          <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 1 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 21.000</p>
+                            <p class="card-text"><h4>Ahorra : 2.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 2 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 40.000</p>
+                            <p class="card-text"><h4>Ahorra : 6.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                        </li>
+                        <li class="one_quarter" style="background-color: darkgrey;">
+                        <center>
+                            <div class="card center" style="width: 11rem;">
+                            <br>
+                            <h5 class="card-title">1 Pantalla por 3 mes</h5>
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotonetflix.jpg" 
+                            alt="foto1">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotodisney.jpg" 
+                            alt="foto2">
+                            <img src="<?php echo $URL;?>/public/images/streaming/fotohbo.jpg" 
+                            alt="foto3">
+                            <p class="card-text">Precio : 57.000</p>
+                            <p class="card-text"><h4>Ahorra:12.000</h4></p>
+                            <a href="#" class="btn" style="background-color: red;" >Pide la tuya</a>
+                          </center>
+                          <br>
+                      </li>
+                    </ul>
+                  </figure>
+                </div>
+              <!-- PLANES NETFLIX+DISNEY+HBO-->
+              <br>
+              <br>
+              <hr>
+              <br>
+              
+            <!-- PLANES NETFLIX*2--> 
           <!-- ///PLANES -->
           </div>
         <!-- ////LADO DERECHO -->

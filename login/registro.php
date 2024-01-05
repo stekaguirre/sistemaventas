@@ -77,12 +77,12 @@ include ("../app/config.php")
                         </div>
                     </div>
                 <!-- ///BOTON REPITA CONTRASEÑA -->
-                <!-- MENSAJE 
+               <!-- MENSAJE -->
                     <div class="input-group mb-3">
                         <textarea name="descripcion" id="descripcion" placeholder="mensaje"
                         cols="2" rows="1" class="form-control"></textarea>  
                     </div>
-                //MENSAJE -->
+               <!-- MENSAJE -->
                 <!-- BOTON REGISTRO --> 
                     <div class="row">
                         <div class="col-12">

@@ -5,11 +5,12 @@
 <!-- INCLUDE -->
  <?php
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/usuarios/principal.php");
-  include ("../layout/menu/usuarios/lateral.php");
-  include('../app/controllers/usuarios/listado_usuarios.php');?>
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");
+  include('../app/controllers/usuarios/listado_usuarios.php');
+ ?>
 <!-- ///INCLUDE -->
 
 <!-- ///CONTENIDO DERECHO HEADER -->
@@ -32,7 +33,7 @@
       <div class="content">
         <div class="content-fluid">
           <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
               <div class="card card-secondary">
                 <div class="card-header ">
                   <h1 class="card-title ">Todos los Usuarios de  <?php echo APP_NAME; ?></h1>
@@ -49,6 +50,7 @@
                       <th>Nro</th>
                       <th>Nombre</th>
                       <th>Email</th>
+                      <th>Rol</th>
                       <th>descripcion</th>
                       <th>Aciones</th>
                   </tr>
@@ -63,7 +65,9 @@
                               <td><?php echo $contador = $contador + 1 ; ?></td>
                               <td><?php echo $usuarios_dato['nombres']; ?></td>
                               <td><?php echo $usuarios_dato['email']; ?></td>
+                              <td><?php echo $usuarios_dato['nombre']; ?></td>
                               <td><?php echo $usuarios_dato['descripcion']; ?></td>
+                              
                               <td>
                                <div class="btn-group" role="group" aria-label="Basic example">
                                 <a href="show.php?id=<?php echo $id_usuario ?>" type="button" class="btn btn-primary"><i class="bi bi-eye-fill"></i>Ver</a>
@@ -81,6 +85,7 @@
                       <th>Nro</th>
                       <th>Nombre</th>
                       <th>Email</th>
+                      <th>Rol</th>
                       <th>descripcion</th>
                       <th>Aciones</th>
                   </tr>
@@ -95,8 +100,8 @@
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
 <!-- CONTENIDO FOOTER Y MENSAJES -->
-  <?php include ("../layout/footer.php");
-        include ("../layout/mensajes.php");
+  <?php include ("../layout/admin/footer.php");
+        include ("../layout/admin/mensajes.php");
   ?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
 

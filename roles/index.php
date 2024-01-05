@@ -5,10 +5,10 @@
 <!-- INCLUDE -->
  <?php
   include ("../app/config.php");
-  include ("../layout/session.php");
-  include ("../layout/header.php");
-  include ("../layout/menu/usuarios/principal.php");
-  include ("../layout/menu/usuarios/lateral.php");
+  include ("../layout/admin/session.php");
+  include ("../layout/admin/header.php");
+  include ("../layout/admin/menu/principal.php");
+  include ("../layout/admin/menu/lateral.php");
   include('../app/controllers/roles/listado_roles.php');?>
 <!-- ///INCLUDE -->
 
@@ -32,7 +32,7 @@
       <div class="content">
         <div class="content-fluid">
           <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-8">
               <div class="card card-secondary">
                 <div class="card-header ">
                   <h1 class="card-title ">Roles  <?php echo APP_NAME; ?></h1>
@@ -63,7 +63,8 @@
                               <td>
                                <div class="btn-group" role="group" aria-label="Basic example">
                                 
-                                <a href="update.php?id=<?php echo $id_rol ?>" type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i>Editar</a>
+                                <a href="update.php?id=<?php echo $id_rol ?>" 
+                                type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i>Editar</a>
                                 
                                </div>
                               </td>
@@ -89,8 +90,8 @@
 <!-- ///CONTENIDO DERECHO MAIN O BODY-->
             
 <!-- CONTENIDO FOOTER Y MENSAJES -->
-  <?php include ("../layout/footer.php");
-        include ("../layout/mensajes.php");
+  <?php include ("../layout/admin/footer.php");
+        include ("../layout/admin/mensajes.php");
   ?>
 <!-- ///CONTENIDO FOOTER Y MENSAJES -->
 
