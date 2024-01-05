@@ -10,7 +10,7 @@
   <!DOCTYPE html>
   <html lang="es"> 
     <head>
-      <title>Inicio | Servicios disponibles</title>
+      <title>Inicio | <?php echo APP_NAME; ?></title>
       <meta charset="utf-8">
       <meta name="viewport" 
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -45,7 +45,7 @@
       <div class="wrapper row0">
         <header id="header" class="hoc clear center"> 
           <h1 id="logo"><img src="<?php echo $URL;?>/public/images/logotienda.png" alt="logotienda"> <br> 
-            <b>Servicios disponibles</b></h1>
+            <b><?php echo APP_NAME; ?></b></h1>
         </header>
       </div>
     <!-- ///TITULO Y LOGO -->
