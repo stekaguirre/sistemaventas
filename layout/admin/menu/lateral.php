@@ -39,7 +39,7 @@
                                 </a>
                             </li>
                         <!--///BOTON INICIO-->
-                        <!--BOTON ADMIN        
+                        <!--BOTON ADMIN  -->      
                             <li class="nav-item">
                                 <a href="<?php echo $URL; ?>/admin" 
                                 class="nav-link active" >
@@ -49,7 +49,7 @@
                                 </p>
                                 </a>
                             </li>
-                        ///BOTON ADMIN-->
+                        <!-- ///BOTON ADMIN -->
                         <!--BOTON USUARIOS-->
                             <li class="nav-item">
                                 <a href="#" class="nav-link active">
@@ -100,7 +100,51 @@
                                 </ul>
                             </li>
                         <!--///BOTON ROLES-->
-                        <!--BOTON PRESTAMOS-->
+                        <!--BOTON ALMACEN-->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-list"></i>
+                                <p>
+                                    Almacen
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?php echo $URL; ?>/alamcen" class="nav-link active">
+                                        <i class="nav-icon fas fa-clipboard-list"></i>
+                                        <p>Listado de Productos</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?php echo $URL; ?>/almacen/create.php" class="nav-link active">
+                                        <i class="nav-icon fas fa-plus"></i>
+                                        <p>Nuevo Producto</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        <!--///BOTON ALMACEN-->
+                        <!--BOTON CATEGORIAS-->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-tags"></i>
+                                <p>
+                                    Categorias
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?php echo $URL; ?>/categorias" class="nav-link active">
+                                        <i class="nav-icon fas fa-clipboard-list"></i>
+                                        <p>Listado de Categorias</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        <!--///BOTON CATEGORIAS-->
+                        <!--BOTON PRESTAMOS
                             <li class="nav-item">
                                 <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-credit-card"></i>
@@ -124,7 +168,7 @@
                                     </li>
                                 </ul>
                             </li>
-                        <!--////BOTON PRESTAMOS--> 
+                        ////BOTON PRESTAMOS -->
                         <!--BOTONES PERFIL-->
                             <li class="nav-item">
                                 <a href="#" class="nav-link active">
