@@ -5,7 +5,7 @@
       <title> Hogar | Paginas | Servicios disponibles</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <link href="<?php echo $URL;?>/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+      <link href="<?php echo $URL;?>/layout/inicio/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     </head>
   <!-- ///HEAD -->
 <body id="top">

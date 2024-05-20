@@ -14,11 +14,14 @@
       <meta charset="utf-8">
       <meta name="viewport" 
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <link href="<?php echo $URL;?>/layout/inicio/styles/layout.css" 
           rel="stylesheet" type="text/css" media="all">
+
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" 
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" 
     href="<?php echo $URL;?>/layout/inicio/styles/fontawesome-free/css/all.min.css">
@@ -39,7 +42,7 @@
 
 <!-- IMAGEN DE FONDO  MENU DE NAVEGACION Y BIENVENIDA -->
   <body id="top">
-  <div class="bgded overlay" style="background-image:url('<?php echo $URL;?>/public/images/sd1.jpg'); "> 
+  <div class="bgded overlay" style="background-image:url('<?php echo $URL;?>/public/images/sd1.jpg');"> 
     <!-- TITULO Y LOGO -->
       <div class="wrapper row0">
         <header id="header" class="hoc clear center"> 
@@ -53,14 +56,15 @@
         <nav id="mainav" class="hoc clear"> 
           <ul class="clear">
             <li class="active"><a href="<?php echo $URL;?>/index.php">Inicio</a></li>
-            <li><a href="<?php echo $URL;?>/admin/index.php">Admin</a></li>
-            <li><a href="<?php echo $URL;?>/paginas/streaming/index.php">Servicios streaming</a></li>
-            <li><a href="<?php echo $URL;?>/paginas/web/index.php">Servicios Web</a></li>
+            <li><a href="<?php echo $URL;?>/paginas/administracion/index.php">Servicio Administrativo</a></li>
+            <li><a href="<?php echo $URL;?>/paginas/streaming/index.php">Servicio Streaming</a></li>
+            <li><a href="<?php echo $URL;?>/paginas/celulares/index.php">Servicio Celulares</a></li>
             <li><a class="drop" href="#">Proximamente</a>
               <ul>
                 <li><a href="<?php echo $URL;?>/paginas/hogar/index.php">Servicio Hogar</a></li>
                 <li><a href="<?php echo $URL;?>/paginas/tienda/index.php">Servicio tienda</a></li>
                 <li><a href="<?php echo $URL;?>/paginas/personal/index.php">Servicio aseo personal</a></li>
+                <li><a href="<?php echo $URL;?>/admin/index.php">Admin</a></li>
               </ul>
             </li> 
           </ul>
@@ -94,6 +98,22 @@
           <!-- ///TITULO Y SUBTITILO -->
           <!-- SERVICIOS -->
             <div class="posts">
+            <!--SERVICIO  DE ADMINISTRACION -->
+              <figure class="group">
+                <div><a class="imgover" href="<?php echo $URL;?>/paginas/administracion/index.php">
+                <img src="<?php echo $URL;?>/public/images/web/web.jpg" alt="fotodweb"
+                  width="100%" height="100%" ></a></div>
+                <figcaption>
+                  <center>
+                    <h4 class="heading"><b style="color: blue;">Servicio de administracion </b></h4>
+                    <p>"creación de páginas web innovadoras. estamos aquí para potenciar tu presencia en 
+                        línea y llevar tus ideas a la realidad digital. Descubre cómo podemos impulsar 
+                        tu marca en el mundo digital de manera efectiva y única."</p>
+                    <footer style="color: blue;"><a class="btn " href="<?php echo $URL;?>/paginas/administracion/index.php">Visitar Web</a></footer>
+                  </center>
+                </figcaption>
+              </figure>
+            <!--/// SERVICIO ADMINISTRACION -->
             <!-- SERVICIO DE STREAMING -->
                 <figure class="group">
                   <div><a class="imgover" href="<?php echo $URL;?>/paginas/streaming/index.php">
@@ -113,22 +133,22 @@
                   </figcaption>
                 </figure>
             <!--/// SERVICIO DE STREAMING --> 
-            <!--SERVICIO  WEB -->
+            <!--SERVICIO  CELULARES -->
               <figure class="group">
-                <div><a class="imgover" href="<?php echo $URL;?>/paginas/web/index.php">
-                <img src="<?php echo $URL;?>/public/images/web/web.jpg" alt="fotodweb"
+                <div><a class="imgover" href="<?php echo $URL;?>/paginas/celulares/index.php">
+                <img src="<?php echo $URL;?>/public/images/celulares/celulares.png" alt="fotodweb"
                   width="100%" height="100%" ></a></div>
                 <figcaption>
                   <center>
-                    <h4 class="heading"><b style="color: blue;">Servicio de paginas web </b></h4>
+                    <h4 class="heading"><b style="color: blue;">Servicio de Celulares </b></h4>
                     <p>"creación de páginas web innovadoras. estamos aquí para potenciar tu presencia en 
                         línea y llevar tus ideas a la realidad digital. Descubre cómo podemos impulsar 
                         tu marca en el mundo digital de manera efectiva y única."</p>
-                    <footer style="color: blue;"><a class="btn " href="<?php echo $URL;?>/paginas/web/index.php">Visitar Web</a></footer>
+                    <footer style="color: blue;"><a class="btn " href="<?php echo $URL;?>/paginas/celulares/index.php">Visitar Web</a></footer>
                   </center>
                 </figcaption>
               </figure>
-            <!--/// SERVICIO WEB -->
+            <!--/// SERVICIO CELULARES -->
             </div>
           <!-- ///SERVICIOS -->
             <div class="clear"></div>
