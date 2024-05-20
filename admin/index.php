@@ -10,7 +10,6 @@
   include ("../layout/admin/header.php");
   include ("../layout/admin/menu/principal.php");
   include ("../layout/admin/menu/lateral.php");
-  include ("../layout/admin/menu/lateral.php");
   include ("../app/controllers/usuarios/listado_usuarios.php");
   include ("../app/controllers/roles/listado_roles.php");
   ?>
@@ -23,9 +22,11 @@
                   <div class="container-fluid">
                     <div class="row mb-2">
                       <div class="col-sm-12">
-                        <h1 class="m-0"><?php echo APP_NAME; ?> 
-                                      - <?php echo $nombres_session; ?>
-                                      - <?php echo $rol_session; ?></h1>
+                        <h1 class="m-0">
+                          <?php echo APP_NAME; ?> -
+                          <?php echo $nombres_session; ?> -
+                          <?php echo $rol_session; ?>
+                        </h1>
                       </div>
                     </div>
                   </div>
@@ -44,7 +45,7 @@
         <div class="small-box bg-warning">
         <div class="inner">
           <?php
-          $contador_de_usuarios = 1;
+          $contador_de_usuarios = 0;
           foreach ($usuarios_datos as $usuarios_dato){
             $contador_de_usuarios = $contador_de_usuarios + 1;
           }
@@ -67,7 +68,7 @@
         <div class="small-box bg-info">
         <div class="inner">
           <?php
-          $contador_de_roles = 1;
+          $contador_de_roles = 0;
           foreach ($roles_datos as $roles_dato){
             $contador_de_roles = $contador_de_roles + 1;
           }

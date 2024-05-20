@@ -16,7 +16,6 @@
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="<?php echo $URL;?>/layout/inicio/styles/layout.css" 
           rel="stylesheet" type="text/css" media="all">
-
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" 
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -54,8 +53,9 @@
         <nav id="mainav" class="hoc clear"> 
           <ul class="clear">
             <li class="active"><a href="<?php echo $URL;?>/index.php">Inicio</a></li>
+            <li><a href="<?php echo $URL;?>/admin/index.php">Admin</a></li>
             <li><a href="<?php echo $URL;?>/paginas/streaming/index.php">Servicios streaming</a></li>
-            <li><a href="<?php echo $URL;?>/paginas/web/index.php">Servicios  Web</a></li>
+            <li><a href="<?php echo $URL;?>/paginas/web/index.php">Servicios Web</a></li>
             <li><a class="drop" href="#">Proximamente</a>
               <ul>
                 <li><a href="<?php echo $URL;?>/paginas/hogar/index.php">Servicio Hogar</a></li>

@@ -2,17 +2,24 @@
  <!-- MENU DE LATERAL ADMIN -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DEL ADMIN --> 
-        <a href="<?php echo $URL; ?>/admin" class="brand-link">
-            <i class="nav-icon fas fa-user-tie"></i> Administrador <br>
-            <img src="<?php echo $URL;?>/public/images/logotienda.png" alt="logo tienda" 
-            class="brand-image img-circle elevation-0" style="opacity: .8">
-            <span class="brand-text font-weight-light"><?php echo APP_NAME;?>  
-            </span>
-        </a>             
+        <div style="color: white;">
+            <center>
+                <img src="<?php echo $URL;?>/public/images/logotienda.png" alt="logo tienda"
+                class="brand-image img-circle elevation-0" style="opacity: .8"
+                width="100px" height="100px">
+            </center>
+                
+            <center>    
+                <?php echo APP_NAME;?><br>
+                <?php echo $rol_session;?>
+            </center>
+            
+        </div>              
     <!-- ///LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DEL ADMIN -->
         <div class="sidebar"> 
             <!-- INFO Y FOTO DE PERFIL DEL USUARIO -->    
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <center></center>
                     <div class="image">
                     <img src="<?php echo $URL;?>/public/images/fotostek.jpg" 
                     class="img-circle elevation-2" alt="User Image">
@@ -209,12 +216,12 @@
             <!-- ///MENU BOTONES-->
         </div>
     <!-- LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DEL ADMIN --> 
-        <a href="<?php echo $URL; ?>/admin" class="brand-link">
-            <img src="<?php echo $URL;?>/public/images/logotienda.png" alt="logo tienda" 
-            class="brand-image img-circle elevation-0" style="opacity: .8">
-            <span class="brand-text font-weight-light"><?php echo APP_NAME;?><br>  
-            <i class="nav-icon fas fa-user-tie"></i> Administrador </span>
-        </a>             
+    <div style="color: white;">
+            <center>
+                <?php echo $rol_session;?><br>
+                <?php echo APP_NAME;?>
+            </center>
+        </div>              
     <!-- ///LOGO Y NOMBRE DE PAGINA EN EL MENU DE LATERAL DEL ADMIN --> 
     </aside>
 <!-- ///MENU DE LATERAL ADMIN -->

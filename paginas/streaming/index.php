@@ -10,12 +10,10 @@
   <!DOCTYPE html>
   <html lang="es">
   <head>
-  <title>Streaming |  Servicios disponibles</title>
+  <title>Streaming |  <?php echo APP_NAME; ?></title>
   <meta charset="utf-8">
   <meta name="viewport" 
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href="<?php echo $URL;?>/layout/inicio/styles/layout.css" 
-        rel="stylesheet" type="text/css" media="all">
   <link href="<?php echo $URL;?>/layout/streaming/styles/layout.css" 
         rel="stylesheet" type="text/css" media="all">
   <link href="<?php echo $URL;?>/layout/streaming/styles/styles.css" 
@@ -25,7 +23,7 @@
   href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" 
-  href="<?php echo $URL;?>/layout/inicio/styles/fontawesome-free/css/all.min.css">
+  href="<?php echo $URL;?>/layout/inicio/styles/fontawesome-free/css/fontawesome-all.min.css">
  
        
   </head>

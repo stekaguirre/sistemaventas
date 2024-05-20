@@ -1,11 +1,6 @@
 @charset "utf-8";
 /*
-Template Name: Jeren
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
+Template Name: DISNEY STREAMING
 */
 
 @import url("font-awesome.min.css");
@@ -253,7 +248,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#CBCBCB; background-color:#222222;}
-a{color:red;}
+a{color:#00ADEF;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -274,7 +269,7 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 
 
 /* Rows */
-.row0, .row0 a{color:red; background-color:#EFEFEF;}
+.row0, .row0 a{color:blue; background-color:#EFEFEF;}
 .row1{color:#474747; background-color:#FFFFFF;}
 .row2{color:#474747; background-color:#EFEFEF; border-color:#D7D7D7;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -308,7 +303,7 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:red; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:rgb(21, 24, 214); background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:red;}
 #mainav form select{color:#FFFFFF; background-color:#000000;}
@@ -317,7 +312,7 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 #breadcrumb li:last-child a{color:#00ADEF;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:red;}
+.container .sidebar nav a:hover{color:#00ADEF;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#00ADEF;}
